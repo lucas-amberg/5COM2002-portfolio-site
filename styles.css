@@ -159,3 +159,40 @@ a:hover {
   justify-content: center;
   width: 40%;
 }
+
+.about-me-section > h2 {
+  font-size: 4rem;
+}
+
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+.about-me-container h3 {
+  font-size: 2rem;
+}
+
+.about-me-container img {
+  width: 200px;
+}
+
+.about-me-container div {
+  width: 40%;
+  background-color: #222;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

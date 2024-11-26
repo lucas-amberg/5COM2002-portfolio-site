@@ -59,6 +59,12 @@ a:hover {
   font-size: 35px;
 }
 
+.hero-title > img {
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
 .hero-description {
   display: flex;
   flex-direction: column;

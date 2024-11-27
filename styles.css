@@ -3,6 +3,7 @@
   margin: 0;
   color: white;
   font-family:Arial, Helvetica, sans-serif;
+  appearance: none;
 }
 
 body {
@@ -195,4 +196,62 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.portfolio-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio-section > h2 {
+  font-size: 4rem;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  width: 90%;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.portfolio-item {
+  background-color: #222;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.portfolio-item > img {
+  height: 60%;
+  border-radius: 5px;
+}
+
+.portfolio-item > h3 {
+  font-size: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: rgb(174, 72, 176);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+}
+
+button:hover {
+  background-color: rgb(252, 101, 255);
+  cursor: pointer;
 }

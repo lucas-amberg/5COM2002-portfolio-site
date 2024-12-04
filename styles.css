@@ -359,6 +359,12 @@ button:hover {
   font-size: 1.2rem;
 }
 
+.project-info > div {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
 .project-title-images {
   display: flex;
   flex-wrap: wrap;

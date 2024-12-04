@@ -316,3 +316,15 @@ button:hover {
 .info-box ul {
   text-align: left;
 }
+
+.hide-translucent-background {
+  display: none;
+}
+
+.translucent-background {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 200vw;
+  height: 100vh;
+  z-index: 5;
+}

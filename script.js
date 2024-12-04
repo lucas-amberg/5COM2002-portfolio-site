@@ -1,7 +1,9 @@
 const buttons = document.querySelectorAll('button');
 const infoBoxes = document.querySelectorAll('.info-box');
+const translucentBackground = document.querySelector('.translucent-background');
 
 infoBoxes.forEach((infoBox) => infoBox.classList.add('hide-info-box'))
+translucentBackground.classList.add('hide-translucent-background')
 document.documentElement.style.overflowY = 'auto';
 document.documentElement.style.overflowX = 'hidden';
 
@@ -9,6 +11,7 @@ function toggleInfoBox(itemClass) {
   const infoBox = document.getElementById(itemClass);
   infoBox.classList.toggle('hide-info-box')
   infoBox.classList.toggle('show-info-box')
+  translucentBackground.classList.toggle('hide-translucent-background')
   toggleScrollBar();
 }
 
@@ -21,6 +24,7 @@ function toggleScrollBar() {
     document.documentElement.style.overflowY = 'auto';
   }
   else {
+    document.documentElement.scrollTop = 0
     document.documentElement.style.overflowY = 'hidden'
   }
 }

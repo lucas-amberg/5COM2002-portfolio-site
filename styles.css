@@ -203,6 +203,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .portfolio-section > h2 {
@@ -254,4 +255,29 @@ button {
 button:hover {
   background-color: rgb(252, 101, 255);
   cursor: pointer;
+}
+
+
+.show-info-box {
+  display: flex;
+}
+
+.hide-info-box {
+  display: none;
+}
+
+.info-box {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  padding: 20px;
+  border-radius: 16px;
+  width: 600px;
+  background-color: #111;
 }

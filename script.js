@@ -24,7 +24,7 @@ function toggleScrollBar() {
     document.documentElement.style.overflowY = 'auto';
   }
   else {
-    document.documentElement.scrollTop = 0
+    
     document.documentElement.style.overflowY = 'hidden'
   }
 }

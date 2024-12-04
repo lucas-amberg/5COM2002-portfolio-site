@@ -328,3 +328,49 @@ button:hover {
   height: 200vh;
   z-index: 5;
 }
+
+.project-section {
+  padding: 30px;
+  display: flex;
+  align-items: stretch;
+  height: 70vh;
+}
+
+.project-section h2 {
+  font-size: 2.5rem;
+}
+
+.project-section ul {
+  margin-left: 20px;
+}
+
+.project-section > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-info {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 16px;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.project-title-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.project-title-images > img {
+  width: 300px;
+  border-radius: 14px;
+}
+
+.project-section > div > a {
+  margin-top: 20px;
+}

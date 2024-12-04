@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('.buttons-container > button');
+const buttons = document.querySelectorAll('button');
 const infoBoxes = document.querySelectorAll('.info-box');
 
 infoBoxes.forEach((infoBox) => infoBox.classList.add('hide-info-box'))
@@ -10,6 +10,10 @@ function toggleInfoBox(itemClass) {
   infoBox.classList.toggle('hide-info-box')
   infoBox.classList.toggle('show-info-box')
   toggleScrollBar();
+}
+
+function hideAllInfoBoxes() {
+  infoBoxes.forEach((infoBox) => infoBox.classList.add('hide-info-box'))
 }
 
 function toggleScrollBar() {

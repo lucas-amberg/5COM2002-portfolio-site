@@ -213,7 +213,7 @@ a:hover {
 .portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 500px 500px;
   width: 90%;
   gap: 20px;
   padding-top: 50px;
@@ -231,7 +231,7 @@ a:hover {
 }
 
 .portfolio-item > img {
-  height: 60%;
+  height: 50%;
   border-radius: 5px;
 }
 

@@ -2,7 +2,6 @@ const buttons = document.querySelectorAll('button');
 const infoBoxes = document.querySelectorAll('.info-box');
 const translucentBackground = document.querySelector('.translucent-background');
 
-infoBoxes.forEach((infoBox) => infoBox.classList.add('hide-info-box'))
 translucentBackground.classList.add('hide-translucent-background')
 document.documentElement.style.overflowY = 'auto';
 document.documentElement.style.overflowX = 'hidden';

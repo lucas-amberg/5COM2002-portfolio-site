@@ -227,6 +227,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  text-align: center;
 }
 
 .portfolio-item > img {

@@ -2,7 +2,6 @@ const buttons = document.querySelectorAll('button');
 const infoBoxes = document.querySelectorAll('.info-box');
 const translucentBackground = document.querySelector('.translucent-background');
 
-translucentBackground.classList.add('hide-translucent-background');
 document.documentElement.style.overflowY = 'auto';
 document.documentElement.style.overflowX = 'hidden';
 

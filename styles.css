@@ -381,3 +381,21 @@ button:hover {
 .project-section > div > a {
   margin-top: 20px;
 }
+
+.help-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 30px;
+  padding: 30px;
+}
+
+.help-section span {
+  font-weight: bold;
+}
+
+.help-section h2 {
+  font-size: 2rem;
+}
